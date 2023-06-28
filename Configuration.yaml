@@ -152,8 +152,10 @@ dns:
   - "+.cmbimg.com"
 proxy-providers:
   Paket-Umum:
-    type: file
-    path: ./akun-umum.yaml
+    type: http
+    path: ./proxy_provider/akun-umum.yaml
+    url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/akun-umum.yaml
+    interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
