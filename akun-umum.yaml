@@ -1,0 +1,30 @@
+proxies:
+- name: master
+  server: 104.18.1.196
+  port: 443
+  type: trojan
+  password: 124857eb-f7bc-4771-9a42-1eeff8127698
+  network: ws
+  sni: do-2device.myserver-prem.cloud
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+        Host: do-2device.myserver-prem.cloud
+- name: opentunnel
+  server: idt-1.opensvr.net
+  type: trojan
+  port: 443 
+  password: opentunnel.net-cobadulukah
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+- name: jagoanssh
+  type: trojan
+  server: id1go.ipservers.xyz
+  port: 443
+  password: jagoanssh-masterwifi
+  udp: true
+  sni: maps.gstatic.com
+  skip-cert-verify: true
