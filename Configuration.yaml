@@ -164,6 +164,21 @@ proxy-groups:
 - name: UMUM
   type: select
   disable-udp: false
+  proxies:
+  - MANUAL
+  - AUTO
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+- name: MANUAL
+  type: select
+  disable-udp: false
+  use:
+  - Paket-Umum
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+- name: AUTO
+  type: url-test
+  disable-udp: false
   use:
   - Paket-Umum
   url: http://www.gstatic.com/generate_204
@@ -171,10 +186,10 @@ proxy-groups:
 - name: WA
   type: select
   disable-udp: false
-  use:
-  - Paket-Umum
   proxies:
-  - DIRECT
+  - MANUAL
+  - AUTO
+  - BYPASS
   url: http://www.gstatic.com/generate_204
   interval: '99'
 - name: BYPASS
