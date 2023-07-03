@@ -154,7 +154,7 @@ proxy-providers:
   Paket-Premium:
     type: http
     path: ./proxy_provider/akun-premium.yaml
-    url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/akun-umum.yaml
+    url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/akun-premium.yaml
     interval: 3600
     health-check:
       enable: true
