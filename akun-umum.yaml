@@ -1,9 +1,49 @@
 proxies:
-- name: howdy
+- name: AKRAB-SNI-ID1
   server: id-1.test3.net
   type: trojan
   port: 443
   password: b217e7e0-1aa3-11ee-9c59-1239d0255272
   udp: true
   sni: zoom.us
+  skip-cert-verify: true
+- name: AKRAB-SNI-ID2
+  server: id-1.test3.net
+  type: trojan
+  port: 443
+  password: b217e7e0-1aa3-11ee-9c59-1239d0255272
+  udp: true
+  sni: zoom.us
+  skip-cert-verify: true
+- name: AKRAB-SNI-ID3
+  server: id-1.test3.net
+  type: trojan
+  port: 443
+  password: 70b87760-1e06-11ee-818c-1239d0255272
+  udp: true
+  sni: geo2.ggpht.com
+  skip-cert-verify: true
+- name: AKRAB-SNI-ID4
+  server: id-1.test3.net
+  type: trojan
+  port: 443 
+  password: 70b87760-1e06-11ee-818c-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+- name: AKRAB-SNI-SGP1
+  server: sg1-trojan.bonds.id
+  type: trojan
+  port: 443
+  password: dc8d18e0-1e05-11ee-844c-1239d0255272
+  udp: true
+  sni: geo2.ggpht.com
+  skip-cert-verify: true
+- name: AKRAB-SNI-SGP2
+  server: sg1-trojan.bonds.id
+  type: trojan
+  port: 443 
+  password: dc8d18e0-1e05-11ee-844c-1239d0255272
+  udp: true
+  sni: meet.google.com
   skip-cert-verify: true
