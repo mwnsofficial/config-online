@@ -153,8 +153,8 @@ dns:
 proxy-providers:
   Paket-Akrab:
     type: http
-    path: ./proxy_provider/akrabb.yaml
-    url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/akun-umum.yaml
+    path: ./proxy_provider/akunakrab.yaml
+    url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/akunakrab.yaml
     interval: 3600
     health-check:
       enable: true
@@ -162,8 +162,8 @@ proxy-providers:
       interval: 99
   Paket-Flexx:
     type: http
-    path: ./proxy_provider/flexx.yaml
-    url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/akun-umum.yaml
+    path: ./proxy_provider/akunflex.yaml
+    url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/akunflex.yaml
     interval: 3600
     health-check:
       enable: true
