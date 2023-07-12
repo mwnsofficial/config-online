@@ -151,9 +151,18 @@ dns:
   - "+.cmbchina.com"
   - "+.cmbimg.com"
 proxy-providers:
-  Paket-Umum:
+  Paket-Akrab:
     type: http
-    path: ./proxy_provider/akun-umum.yaml
+    path: ./proxy_provider/akrabb.yaml
+    url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/akun-umum.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 99
+  Paket-Flexx:
+    type: http
+    path: ./proxy_provider/flexx.yaml
     url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/akun-umum.yaml
     interval: 3600
     health-check:
@@ -173,14 +182,16 @@ proxy-groups:
   type: select
   disable-udp: false
   use:
-  - Paket-Umum
+  - Paket-Akrabb
+  - Paket-Flexx
   url: http://www.gstatic.com/generate_204
   interval: '99'
 - name: AUTO
   type: url-test
   disable-udp: false
   use:
-  - Paket-Umum
+  - Paket-Akrabb
+  - Paket-Flexx
   url: http://www.gstatic.com/generate_204
   interval: '99'
 - name: WA
