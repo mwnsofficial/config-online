@@ -151,7 +151,7 @@ dns:
   - "+.cmbchina.com"
   - "+.cmbimg.com"
 proxy-providers:
-  Paket-Akrab:
+  Paket-Akrabb:
     type: http
     path: ./proxy_provider/akunakrab.yaml
     url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/akunakrab.yaml
