@@ -1,5 +1,5 @@
 proxies:
-- name: flexx
+- name: flexx1
   server: 43.204.60.128
   type: trojan
   port: 443
@@ -12,3 +12,42 @@ proxies:
     path: /howdy
     headers:
       Host: sg1-trojan.bonds.id
+- name: flexx2
+  server: 103.150.116.151
+  type: trojan
+  port: 443
+  password: d32e0cf0-2097-11ee-865a-1239d0255272
+  udp: true
+  sni: sg1-trojan.bonds.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg1-trojan.bonds.id
+- name: flexx3
+  server: sg1-trojan.bonds.id
+  type: trojan
+  port: 443
+  password: d32e0cf0-2097-11ee-865a-1239d0255272
+  udp: true
+  sni: 43.204.60.128
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: 43.204.60.128
+- name: flexx4
+  server: sg1-trojan.bonds.id
+  type: trojan
+  port: 443
+  password: d32e0cf0-2097-11ee-865a-1239d0255272
+  udp: true
+  sni: 103.150.116.151
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: 103.150.116.151
