@@ -1,0 +1,26 @@
+payload:
+
+  # > RULE BY SIMASTER
+  - DOMAIN-KEYWORD,bri
+  - DOMAIN-KEYWORD,bni
+  - DOMAIN-KEYWORD,klikbca
+  - DOMAIN-KEYWORD,mandiri
+  - DOMAIN-KEYWORD,bankbsi
+  - DOMAIN-KEYWORD,cimbniaga
+  - DOMAIN-KEYWORD,bankjateng
+  - DOMAIN-KEYWORD,bankkalsel
+  - DOMAIN-KEYWORD,bankaceh
+  - DOMAIN-KEYWORD,banksumut
+  - DOMAIN-KEYWORD,banknagari
+  - DOMAIN-KEYWORD,banklampung
+  - DOMAIN-KEYWORD,bankbandung
+  - DOMAIN-KEYWORD,bankkalteng
+  - DOMAIN-KEYWORD,bankkaltim
+  - DOMAIN-KEYWORD,bankkalbar
+  - DOMAIN-KEYWORD,bankkaltara
+  - DOMAIN-KEYWORD,banksulsel
+  - DOMAIN-KEYWORD,banksulteng
+  - DOMAIN-KEYWORD,banksultra
+  - DOMAIN-KEYWORD,banksulbar
+  - DOMAIN-KEYWORD,banksultim
+  - DOMAIN-KEYWORD,bankpapua
