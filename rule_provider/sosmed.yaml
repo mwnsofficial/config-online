@@ -1,0 +1,25 @@
+payload:
+
+  # > RULE BY SIMASTER
+  - DOMAIN-KEYWORD,fb
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
+  - DOMAIN-KEYWORD,messenger
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,cdninstagram
+  - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,twitpic
+  - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,tiktokv
+  - DOMAIN-KEYWORD,tiktokcdn
+  - DOMAIN-KEYWORD,path
+  - DOMAIN-KEYWORD,discord
+  - DOMAIN-KEYWORD,discus
+  - DOMAIN-KEYWORD,line
+  - DOMAIN-KEYWORD,pinterest
+  - DOMAIN-KEYWORD,snapchat
+  - DOMAIN-KEYWORD,kuaishou
+  - DOMAIN-KEYWORD,weibo
+  - DOMAIN-KEYWORD,qq
+  - DOMAIN-KEYWORD,douyin
+  - DOMAIN-KEYWORD,wechat
