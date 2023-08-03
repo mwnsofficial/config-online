@@ -1,0 +1,9 @@
+proxies:
+- name: akun-wanb-auto
+  server: sg2-trojan.bonds.id
+  type: trojan
+  port: 443
+  password: 492a4e20-321e-11ee-8f93-1239d0255272
+  udp: true
+  sni: zoom.us
+  skip-cert-verify: true
