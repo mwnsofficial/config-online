@@ -350,7 +350,7 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - SIMASTER
+  - SIMASTER-AUTO
   - WAN
   - WANB
   - DIRECT
@@ -360,7 +360,7 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - SIMASTER
+  - SIMASTER-AUTO
   - WAN
   - WANB
   - DIRECT
@@ -370,7 +370,7 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - SIMASTER
+  - SIMASTER-AUTO
   - WAN
   - WANB
   - DIRECT
@@ -380,7 +380,7 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - SIMASTER
+  - SIMASTER-AUTO
   - WAN
   - WANB
   - DIRECT
@@ -390,7 +390,7 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - SIMASTER
+  - SIMASTER-AUTO
   - WAN
   - WANB
   - DIRECT
@@ -400,7 +400,7 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - SIMASTER
+  - SIMASTER-AUTO
   - WAN
   - WANB
   - DIRECT
