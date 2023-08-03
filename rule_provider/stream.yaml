@@ -1,0 +1,33 @@
+payload:
+
+  # > RULE BY SIMASTER
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-KEYWORD,youtubekids
+  - DOMAIN-KEYWORD,youtubeedication
+  - DOMAIN-KEYWORD,googlevideo
+  - DOMAIN-KEYWORD,ggpht
+  - DOMAIN-KEYWORD,gvt1
+  - DOMAIN-KEYWORD,gvt2
+  - DOMAIN-KEYWORD,ytimg
+  - DOMAIN-KEYWORD,netflix
+  - DOMAIN-KEYWORD,movi
+  - DOMAIN-KEYWORD,hbo
+  - DOMAIN-KEYWORD,m3u
+  - DOMAIN-KEYWORD,wetv
+  - DOMAIN-KEYWORD,iflix
+  - DOMAIN-KEYWORD,amazon
+  - DOMAIN-KEYWORD,vidio
+  - DOMAIN-KEYWORD,restream
+  - DOMAIN-KEYWORD,rctiplus
+  - DOMAIN-KEYWORD,transtv
+  - DOMAIN-KEYWORD,netmedia
+  - DOMAIN-KEYWORD,hotstar
+  - DOMAIN-KEYWORD,visionplus
+  - DOMAIN-KEYWORD,kompas
+  - DOMAIN-KEYWORD,tvonenews
+  - DOMAIN-KEYWORD,inews
+  - DOMAIN-KEYWORD,cnnindonesia
+  - DOMAIN-KEYWORD,streamlabs
+  - DOMAIN-KEYWORD,twitch
+  - DOMAIN-KEYWORD,nimo
+  - DOMAIN-KEYWORD,obsproject
