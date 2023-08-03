@@ -1,0 +1,13 @@
+payload:
+
+  # > RULE BY SIMASTER
+  - DOMAIN-KEYWORD,shopee
+  - DOMAIN-KEYWORD,shopeemobile
+  - DOMAIN-KEYWORD,lazada
+  - DOMAIN-KEYWORD,bukalapak
+  - DOMAIN-KEYWORD,blibli
+  - DOMAIN-KEYWORD,tokopedia
+  - DOMAIN-KEYWORD,amazon
+  - DOMAIN-KEYWORD,alibaba
+  - DOMAIN-KEYWORD,ebay
+  - DOMAIN-KEYWORD,shopify
