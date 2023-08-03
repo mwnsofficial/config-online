@@ -1,0 +1,9 @@
+proxies:
+- name: sg1
+  server: sg2-trojan.bonds.id
+  type: trojan
+  port: 2096
+  password: 492a4e20-321e-11ee-8f93-1239d0255272
+  udp: true
+  sni: bugmu.com
+  skip-cert-verify: true
