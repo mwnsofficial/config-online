@@ -1,0 +1,5 @@
+payload:
+
+  # > RULE BY SIMASTER
+  - DOMAIN-KEYWORD,whatsapp
+  - DOMAIN-KEYWORD,line
