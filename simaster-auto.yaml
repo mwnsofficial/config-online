@@ -156,8 +156,6 @@ proxy-providers:
   WAN-Manual:
     type: file
     path: ./proxy_provider/wan-manual.yaml
-    url: https://raw.githubusercontent.com/mwnsofficial/config-auto/main/proxy_provider/wan-manual.yaml
-    interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -165,7 +163,7 @@ proxy-providers:
   WAN-Auto:
     type: http
     path: ./proxy_provider/wan-auto.yaml
-    url: https://raw.githubusercontent.com/mwnsofficial/config-auto/main/proxy_provider/wan-auto.yaml
+    url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/proxy_provider/wan-auto.yaml
     interval: 3600
     health-check:
       enable: true
@@ -174,8 +172,6 @@ proxy-providers:
   WANB-Manual:
     type: file
     path: ./proxy_provider/wanb-manual.yaml
-    url: https://raw.githubusercontent.com/mwnsofficial/config-auto/main/proxy_provider/wanb-manual.yaml
-    interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -183,7 +179,7 @@ proxy-providers:
   WANB-Auto:
     type: http
     path: ./proxy_provider/wanb-auto.yaml
-    url: https://raw.githubusercontent.com/mwnsofficial/config-auto/main/proxy_provider/wanb-auto.yaml
+    url: https://raw.githubusercontent.com/mwnsofficial/config-online/main/proxy_provider/wanb-auto.yaml
     interval: 3600
     health-check:
       enable: true
@@ -413,37 +409,37 @@ proxy-groups:
 rule-providers:
   Game:
     type: http
-    behavior: domain
+    behavior: classical
     path: ./rule_provider/game.yaml
     url: https://bit.ly/3X2SvcL
     interval: 3600
   Sosmed:
     type: http
-    behavior: domain
+    behavior: classical
     path: ./rule_provider/sosmed.yaml
     url: https://bit.ly/3I4HG5I
     interval: 3600
   Stream:
     type: http
-    behavior: domain
+    behavior: classical
     path: ./rule_provider/stream.yaml
     url: https://bit.ly/3PU6RJP
     interval: 3600
   Olshop:
     type: http
-    behavior: domain
+    behavior: classical
     path: ./rule_provider/olshop.yaml
     url: https://bit.ly/3Wp85PH
     interval: 3600
   Bank:
     type: http
-    behavior: domain
+    behavior: classical
     path: ./rule_provider/bank.yaml
     url: https://bit.ly/3hN7JUh
     interval: 3600
   Chat:
     type: http
-    behavior: domain
+    behavior: classical
     path: ./rule_provider/chat.yaml
     url: http://bit.ly/3Vkdh6g
     interval: 3600
